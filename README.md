@@ -7,7 +7,7 @@ https://market.mashape.com/fyhao/weather-13
 
 ## Calls with cURL
 
-mashape aqi:
+*mashape aqi:*
 `curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.3710062&lng=-122.0375935" -H "X-Mashape-Key: 5cP5gZT72amshYgnshOLzL3WAtzEp1Ap4bajsnPJjJwFWZZzEo" -H "Accept: text/plain"`
 
 result:
@@ -27,7 +27,7 @@ Connection: keep-alive
 63
 ```
 
-aeris normals:
+*aeris normals:*
 `curl --get -k --include "http://api.aerisapi.com/normals/flagstaff,az?client_id=mAt1HQXREDl8tSFPdkeYp&client_secret=29W59FBZO9sxEj3htznpJhBIm6nVAwUtHhreUzWR&limit=5&filter=hassnow"`
 
 the response has been piped to aeris-normals-response.txt
