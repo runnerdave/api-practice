@@ -11,7 +11,8 @@ mashape aqi:
 `curl --get -k --include "https://simple-weather.p.mashape.com/aqi?lat=37.3710062&lng=-122.0375935" -H "X-Mashape-Key: 5cP5gZT72amshYgnshOLzL3WAtzEp1Ap4bajsnPJjJwFWZZzEo" -H "Accept: text/plain"`
 
 result:
-```-H "Accept: text/plain"
+```
+-H "Accept: text/plain"
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100     2    0     2    0     0      0      0 --:--:--  0:00:04 --:--:--     0HTTP/1.1 200 OK
@@ -23,7 +24,8 @@ X-Powered-By: Express
 Content-Length: 2
 Connection: keep-alive
 
-63```
+63
+```
 
 aeris normals:
 `curl --get -k --include "http://api.aerisapi.com/normals/flagstaff,az?client_id=mAt1HQXREDl8tSFPdkeYp&client_secret=29W59FBZO9sxEj3htznpJhBIm6nVAwUtHhreUzWR&limit=5&filter=hassnow"`
