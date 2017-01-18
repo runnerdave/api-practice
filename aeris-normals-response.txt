@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Content-Type: application/json;  charset=utf-8
+Content-Length: 2983
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+Cache-Control: public,max-age=300,s-maxage=300
+Date: Wed, 18 Jan 2017 03:36:28 GMT
+Expires: Wed, 18 Jan 2017 03:41:28 GMT
+Pragma: public
+Server: Apache/2.2.31 (Amazon)
+X-Aeris-Auto: 0
+X-Cacheaction-Stored: action_normals_index_c6163477d4cfa08511dc0c5443c1ddde ttl 300
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 7f8ec3a50f1d80a9893d698deeb03df2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: I0MY7BxZMhZGrbUv1blvJZmKziaMRZqrI7HJCcCwWEImY1jRmnHH6g==
+Connection: Keep-Alive
+Age: 0
+
+{"success":true,"error":null,"response":[{"id":"usw00003103","loc":{"long":-111.666,"lat":35.1442},"place":{"name":"flagstaff ap","state":"az","country":"us"},"periods":[{"type":"daily","mon":1,"day":18,"timestamp":1484697600,"dateTimeISO":"2017-01-18T00:00:00+00:00","temp":{"maxF":42.6,"maxC":5.89,"minF":17.4,"minC":-8.11,"avgF":30,"avgC":-1.11},"prcp":{"ytdIN":1.25,"ytdMM":32,"mtdIN":1.25,"mtdMM":32},"snow":{"ytdIN":12.6,"ytdCM":32,"mtdIN":12.6,"mtdCM":32},"hdd":35,"cdd":0}],"profile":{"tz":"UTC"},"relativeTo":{"lat":35.19807,"long":-111.65127,"bearing":193,"bearingENG":"SSW","distanceKM":6.138,"distanceMI":3.814}},{"id":"usc00023009","loc":{"long":-111.731,"lat":35.1611},"place":{"name":"flagstaff 4 sw","state":"az","country":"us"},"periods":[{"type":"daily","mon":1,"day":18,"timestamp":1484697600,"dateTimeISO":"2017-01-18T00:00:00+00:00","temp":{"maxF":43.3,"maxC":6.28,"minF":10.9,"minC":-11.72,"avgF":27.1,"avgC":-2.72},"prcp":{"ytdIN":1.29,"ytdMM":33,"mtdIN":1.29,"mtdMM":33},"snow":{"ytdIN":10.2,"ytdCM":25.9,"mtdIN":10.2,"mtdCM":25.9},"hdd":38,"cdd":0}],"profile":{"tz":"UTC"},"relativeTo":{"lat":35.19807,"long":-111.65127,"bearing":240,"bearingENG":"WSW","distanceKM":8.331,"distanceMI":5.177}},{"id":"usc00023160","loc":{"long":-111.742,"lat":35.2681},"place":{"name":"ft valley","state":"az","country":"us"},"periods":[{"type":"daily","mon":1,"day":18,"timestamp":1484697600,"dateTimeISO":"2017-01-18T00:00:00+00:00","temp":{"maxF":42.1,"maxC":5.61,"minF":12.2,"minC":-11,"avgF":27.2,"avgC":-2.67},"prcp":{"ytdIN":1.27,"ytdMM":32,"mtdIN":1.27,"mtdMM":32},"snow":{"ytdIN":7.2,"ytdCM":18.3,"mtdIN":7.2,"mtdCM":18.3},"hdd":38,"cdd":0}],"profile":{"tz":"UTC"},"relativeTo":{"lat":35.19807,"long":-111.65127,"bearing":313,"bearingENG":"NW","distanceKM":11.338,"distanceMI":7.045}},{"id":"usc00029156","loc":{"long":-111.506,"lat":35.1706},"place":{"name":"walnut canyon n.m.","state":"az","country":"us"},"periods":[{"type":"daily","mon":1,"day":18,"timestamp":1484697600,"dateTimeISO":"2017-01-18T00:00:00+00:00","temp":{"maxF":45.2,"maxC":7.33,"minF":17.2,"minC":-8.22,"avgF":31.2,"avgC":-0.44},"prcp":{"ytdIN":0.85,"ytdMM":22,"mtdIN":0.85,"mtdMM":22},"snow":{"ytdIN":10,"ytdCM":25.4,"mtdIN":10,"mtdCM":25.4},"hdd":34,"cdd":0}],"profile":{"tz":"UTC"},"relativeTo":{"lat":35.19807,"long":-111.65127,"bearing":103,"bearingENG":"ESE","distanceKM":13.551,"distanceMI":8.42}},{"id":"usc00020678","loc":{"long":-111.821,"lat":35.23},"place":{"name":"bellemont wfo","state":"az","country":"us"},"periods":[{"type":"daily","mon":1,"day":18,"timestamp":1484697600,"dateTimeISO":"2017-01-18T00:00:00+00:00","temp":{"maxF":42.5,"maxC":5.83,"minF":11.6,"minC":-11.33,"avgF":27,"avgC":-2.78},"prcp":{"ytdIN":1.28,"ytdMM":33,"mtdIN":1.28,"mtdMM":33},"snow":{"ytdIN":10.5,"ytdCM":26.7,"mtdIN":10.5,"mtdCM":26.7},"hdd":38,"cdd":0}],"profile":{"tz":"UTC"},"relativeTo":{"lat":35.19807,"long":-111.65127,"bearing":283,"bearingENG":"WNW","distanceKM":15.823,"distanceMI":9.832}}]}
