@@ -1,0 +1,16 @@
+{
+  "id": 4040999499,
+  "category": {
+    "id": 123,
+    "name": "test"
+  },
+  "name": "chispita",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [{
+    "id": 0,
+    "name": "string"
+  }],
+  "status": "available"
+}
