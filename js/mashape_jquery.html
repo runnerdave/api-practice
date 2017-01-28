@@ -1,0 +1,52 @@
+<html>
+ <head>
+ <title>Sample Page</title>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ </head>
+ <body>
+ <script>
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "dataType": "json",
+  "url": "https://simple-weather.p.mashape.com/weatherdata?lat=37.3710062&lng=-122.0375935",
+  "method": "GET",
+  "headers": {
+    "x-mashape-key": "5cP5gZT72amshYgnshOLzL3WAtzEp1Ap4bajsnPJjJwFWZZzEo",
+    "accept": "application/json",
+    "cache-control": "no-cache",
+    "postman-token": "46c3ff39-f3ba-f033-13e5-541b94bcc292"
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+  console.log("Count:" + response.query.count);
+  console.log("Item title:" + response.query.results.channel.item.title);
+  console.log("Item description:" + response.query.results.channel.item.description);
+  //set the content for the div
+  var content = response.query.results.channel.item.description;
+  //get the wind speed
+  var windSpeed = response.query.results.channel.wind.speed;
+  console.log("windSpeed:" + windSpeed)
+  //get the units
+  var speedUnits = response.query.results.channel.units.speed;
+
+  //modify content to add speed
+  content = content.replace("<![CDATA[", "").replace("]]>", "");
+
+  //add the wind speed
+  windSpeed = "<BR />Wind Speed:<BR />" + windSpeed + " " + speedUnits + "<BR /><BR />";
+  content = content.replace("<b>Forecast:</b>", windSpeed + "<b>Forecast:</b>");
+
+  $("#weatherDescription")
+  			.append(content);
+  
+
+});
+
+ </script>
+ <div id="weatherDescription"></div>
+	
+ </body>
+ </html>
